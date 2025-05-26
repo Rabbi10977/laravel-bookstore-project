@@ -5,6 +5,11 @@ This is a Bookstore Management System built with Laravel. It allows users to vie
 
 ![rabbi laravel](https://github.com/user-attachments/assets/9aa528a4-136f-4d46-acb9-1bb87d134ba2)
 
+https://youtu.be/NBPZvfI-TTk?si=A3P4V-Ary35K_ncX 
+
+Created by Md.Rabbi Hasan 
+ID:0322320105101016
+
 
 🚀 Features
 ✅ Core Functionalities
