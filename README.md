@@ -1,4 +1,6 @@
 📚 Laravel Bookstore Application
+
+
 This is a Bookstore Management System built with Laravel. It allows users to view, search, add, update, and delete books from the inventory. The application features a clean and responsive UI for managing a list of books with essential metadata such as title, author, stock, price, and ISBN.
 
 ![rabbi laravel](https://github.com/user-attachments/assets/9aa528a4-136f-4d46-acb9-1bb87d134ba2)
@@ -40,13 +42,15 @@ Copy
 Edit
 git clone https://github.com/your-username/laravel-bookstore.git
 cd laravel-bookstore
-2. Install Dependencies
+
+3. Install Dependencies
 bash
 Copy
 Edit
 composer install
 npm install && npm run dev
-3. Configure Environment
+
+5. Configure Environment
 bash
 Copy
 Edit
@@ -54,18 +58,20 @@ cp .env.example .env
 php artisan key:generate
 Edit the .env file to match your database credentials.
 
-4. Run Migrations
+
+7. Run Migrations
 bash
 Copy
 Edit
 php artisan migrate
-5. Seed Database (Optional)
+8. Seed Database (Optional)
 You can add some sample books for testing.
 
 bash
 Copy
 Edit
 php artisan db:seed
+
 6. Serve the Application
 bash
 Copy
@@ -78,18 +84,22 @@ Visit http://localhost:8000 in your browser.
 pgsql
 Copy
 Edit
+
 app/
 ├── Http/
 │   └── Controllers/
 │       └── BookController.php
 resources/
+
 ├── views/
 │   ├── books/
 │   │   ├── index.blade.php
 │   │   ├── create.blade.php
 │   │   ├── edit.blade.php
 │   │   └── show.blade.php
+
 routes/
+
 └── web.php 
 
 📝 License
